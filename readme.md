@@ -1,1 +1,1 @@
-This is a demo flightadvisor project.
+This is an awesome demo flightadvisor project.
