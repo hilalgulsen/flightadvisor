@@ -8,7 +8,8 @@
   },
   "license": "Apache",
   "engines": {
-    "node": "~0.10.0 || ~4.2.0"
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
   },
   "dependencies": {
     "superagent": "^3.5.2"
