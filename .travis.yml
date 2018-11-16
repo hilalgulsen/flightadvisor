@@ -5,7 +5,7 @@ node_js:
 deploy:
   provider: heroku
   api_key:
-    secure: 0f8c6d23-7d63-457d-9d29-b4f3c5307f8c
+    secure: d4fcf6d0-86c3-4969-8e85-bec0a43c19a5
   app: flight-advisor
   on:
     repo: hilalgulsen/flightadvisor
