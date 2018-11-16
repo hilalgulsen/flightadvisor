@@ -1,7 +1,3 @@
-//Yusuf Ekiz
-//var http = require('http');
-
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
