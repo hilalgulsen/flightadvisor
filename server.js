@@ -31,7 +31,7 @@ function getFlights(options, callback) {
 
 
 app.get('/', function (req, res) {
-    if (req.query['hub.verify_token'] === 'EAAGWpgIySIABACyoZCRqPLKZAJkQEbnZAYGiVEPNry8kasZB6IFOhXP0O6jHQZBMvZCFqgu8VuK3X5QRgVk8ud19XS81ofNRZCn6r9OsJZBt8gac2hqKGbd1TGFZAV9ciTArUNykNrmBznz2ZAZA8WiX3bCFcheIFb4XqpqjZCckND42rAZDZD') {
+    if (req.query['hub.verify_token'] === 'EAADl6bx3YVsBAOxhR0jrRBAWx81CnkCkffZBliutL1fb8DaZCgsexiTOZBZBwm1JQ8nGSm3JGZAZCDs8Jbd4HC7CTjfjO0h3Tj2WvmulKdo4osvzXr3gOpqZCET1NVXcjnON3fd4cd1hTPLwkOrmN8IMHZCY8vMqcnyMMp72pTjXgwZDZD') {
         res.send(req.query['hub.challenge'])
     } else {
         res.send('Error, wrong token!!!')
