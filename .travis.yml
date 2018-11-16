@@ -2,10 +2,3 @@ language: node_js
 node_js:
   - "iojs"
   - 7
-deploy:
-  provider: heroku
-  api_key:
-    secure: d4fcf6d0-86c3-4969-8e85-bec0a43c19a5
-  app: flight-advisor
-  on:
-    repo: hilalgulsen/flightadvisor
